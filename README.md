@@ -1,8 +1,10 @@
 
-<h1 align="center">
+![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/LogoLUMOBOT.png)
+
+<!--<h1 align="center">
   <span style="color: yellow;">LuMoBot 2026</span>
 </h1>
-
+-->
 El control del robot se reliza mediande la libreria LumoBotLib.py.
 En esta librería se encuentran las clases que gestionan los distintos elementos del robot y la clase principal **Robot**.
 
@@ -119,7 +121,7 @@ while True:
 
 ## Expresiones predefinidas
  Para mostrar la expresión que deseemos bastará con indicar, en la función **muestra_cara()**, el número asignado a la misma que puedes ver en la siguiente tabla :
- 
+
 Valor | Gesto | Imagen
 --|--|--
 0 | ojos abiertos | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/mirando.png)

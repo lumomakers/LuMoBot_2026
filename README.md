@@ -3,14 +3,15 @@
   <span style="color: yellow;">LuMoBot 2026</span>
 </h1>
 
-<span style="color: red;">Texto en rojo</span>
-
 El control del robot se reliza mediande la libreria LumoBotLib.py.
 En esta librería se encuentran las clases que gestionan los distintos elementos del robot y la clase principal **Robot**.
 
 <h2>
     <span style="color:yellow;">Dispositivos que conforman LuMoBot 2026</span>
 </h2>
+
+$\color{red}{\text{Tu texto aquí}}$
+
 ## Dispositivos que conforman LuMoBot 2026
 
 1. **Raspberry Pi Pico**: Es el microcontrolador el robot

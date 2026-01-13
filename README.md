@@ -39,7 +39,7 @@ Estas acciones son los métodos de la clase Robot a la que deberemos instanciar 
     
 ## Funcionamiento de LuMoBot
 Para poder usar el robot necesitaremos crear un **objeto** de la clase **Robot**, de esta manera podremos acceder a las diferentes funcionalidades.
-```python:
+```python
 coche = Robot() # De esta manera ya tenemos acceso a las acciones del robot
 
 # Movilidad el robot
@@ -55,7 +55,7 @@ coche.girar_90_derecha()
 ```
 
 ## Usando la clase *Pantalla* para mostrar texto
-```python:
+```python
 coche = Robot()
 
 # Texto inicial
@@ -66,12 +66,12 @@ coche.mostrar() # Damos la orden de mostrar la información deseada
 ```
 
 ## Usando la pantalla para mostrar una expresión
-```python:
+```python
 coche.muestra_cara(3) # El número indica la expresión a mostrar según tabla
 ```
 
 ## Usando el sensor de distancia SVL6180X:
-```python:
+```python
 coche = Robot()
 # Mostramos los ojos abiertos 
 coche.muestra_cara(0)

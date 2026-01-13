@@ -37,3 +37,30 @@ Estas acciones son los métodos de la clase Robot a la que deberemos instanciar 
     - texto_centrado(texto, x, y)
     - muestra_cara(num)
     
+## Funcionamiento de LuMoBot
+Para poder usar el robot necesitaremos crear un **objeto** de la clase **Robot**, de esta manera podremos acceder a las diferentes funcionalidades.
+```python:
+coche = Robot() # De esta manera ya tenemos acceso a las acciones del robot
+
+# Movilidad el robot
+coche.retroceder()
+coche.parar()
+coche.girar_izquierda()
+coche.girar_derecha()
+coche.avanzar(coche.VEL_LENTA) # VEL_LENTA, VEL_NORMAL
+
+# Podemos hacer giros precisos
+coche.girar_90_izquierda()
+coche.girar_90_derecha()
+```
+
+## Usando la clase *Pantalla* para mostrar texto
+```python:
+coche = Robot()
+
+# Texto inicial
+coche.limpiar() # Primero limpiamos la pantalla
+coche.texto_centrado('L U M O B O T', 0,15) # Indicámos qué vamos a mostrar
+coche.texto_centrado('2026', 0, 35)
+coche.mostrar() # Damos la orden de mostrar la información deseada
+```

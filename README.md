@@ -121,4 +121,4 @@ while True:
 
 Valor | Gesto | Imagen
 --|--|--
-0 | mirando | !(https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/mirando.png)
+0 | mirando | !(https://github.com/lumomakers/LuMoBot_2026/imgs/mirando.png)

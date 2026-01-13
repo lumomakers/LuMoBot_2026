@@ -118,7 +118,8 @@ while True:
 ```
 
 ## Expresiones predefinidas
-
+ Para mostrar la expresión que deseemos bastará con indicar, en la función **muestra_cara()**, el número asignado a la misma que puedes ver en la siguiente tabla :
+ 
 Valor | Gesto | Imagen
 --|--|--
 0 | ojos abiertos | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/mirando.png)

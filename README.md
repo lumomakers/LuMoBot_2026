@@ -6,6 +6,9 @@
 El control del robot se reliza mediande la libreria LumoBotLib.py.
 En esta librería se encuentran las clases que gestionan los distintos elementos del robot y la clase principal **Robot**.
 
+<h2>
+    <span style="color:yellow;">Dispositivos que conforman LuMoBot 2026</span>
+</h2>
 ## Dispositivos que conforman LuMoBot 2026
 1. **Raspberry Pi Pico**: Es el microcontrolador el robot
 2. **Pantalla SSD1306**: Nos permite mostrar información en forma de texto o con expresiones de ojos para darle un poco de animación al robot.

@@ -6,12 +6,6 @@
 El control del robot se reliza mediande la libreria LumoBotLib.py.
 En esta librería se encuentran las clases que gestionan los distintos elementos del robot y la clase principal **Robot**.
 
-<h2>
-    <span style="color:yellow;">Dispositivos que conforman LuMoBot 2026</span>
-</h2>
-
-$\color{blue}{\text{Tu texto aquí}}$
-
 ## Dispositivos que conforman LuMoBot 2026
 
 1. **Raspberry Pi Pico**: Es el microcontrolador el robot
@@ -80,6 +74,34 @@ coche.mostrar() # Damos la orden de mostrar la información deseada
 coche.muestra_cara(3) # El número indica la expresión a mostrar según tabla
 ```
 
+En el siguiente ejemplo el robot reacciona cuando le acercamos cualquier objeto a menos de **10cm**, cuando reacciona por **5ª vez** el programa se detiene y el robot muestra una cara de enfado.
+```python
+from LumobotLib import *
+import utime
+
+coche = Robot() # Creamos nuestro objeto coche
+
+contador = 0 # Contaremos las veces que detecta un obstaculo
+# Iniciando movimiento (esta es la parte que interesa)
+coche.muestra_cara(0)
+while True: # Nuestro bucle infinito
+    distancia = coche.distancia()
+    if distancia == None: # Por si se despista en la lectura
+        distancia = 255
+    elif distancia < 100:
+        coche.muestra_cara(8)
+        contador += 1
+        utime.sleep_ms(1000)
+        print(contador)
+        if contador == 5: # Si detecta el obstáculo 5 veces, FIN
+            break 
+    else:
+        coche.muestra_cara(0)
+        
+coche.muestra_cara(4)
+```
+
+
 ## Usando el sensor de distancia SVL6180X:
 ```python
 coche = Robot()
@@ -95,4 +117,8 @@ while True:
         coche.muestra_cara(0)
 ```
 
-## :smile: Prueba
+## Expresiones predefinidas
+
+Valor | Gesto | Imagen
+--|--|--
+0 | mirando | !(https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/mirando.png)

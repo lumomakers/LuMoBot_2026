@@ -133,3 +133,7 @@ Valor | Gesto | Imagen
 6 | sospecha | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/sospecha.png)
 7 | triste | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/triste.png)
 8 | golpe | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/golpe.png)
+
+# Esquemático de LuMoBot
+
+![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/LUMOBOT_2026_2026-01-13.png)

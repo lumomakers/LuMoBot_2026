@@ -64,3 +64,23 @@ coche.texto_centrado('L U M O B O T', 0,15) # Indicámos qué vamos a mostrar
 coche.texto_centrado('2026', 0, 35)
 coche.mostrar() # Damos la orden de mostrar la información deseada
 ```
+
+## Usando la pantalla para mostrar una expresión
+```python:
+coche.muestra_cara(3) # El número indica la expresión a mostrar según tabla
+```
+
+## Usando el sensor de distancia SVL6180X:
+```python:
+coche = Robot()
+# Mostramos los ojos abiertos 
+coche.muestra_cara(0)
+while True:
+    distancia = coche.distancia() # Leemos la distancia con el sensor
+    if distancia == None: # Por si obtiene lecturas falsas
+        distancia = 255
+    elif distancia < 100:
+        coche.muestra_cara(8)      
+    else:
+        coche.muestra_cara(0)
+```

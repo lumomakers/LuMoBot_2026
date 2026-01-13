@@ -3,6 +3,8 @@
   <span style="color: yellow;">LuMoBot 2026</span>
 </h1>
 
+<span style="color: red;">Texto en rojo</span>
+
 El control del robot se reliza mediande la libreria LumoBotLib.py.
 En esta librería se encuentran las clases que gestionan los distintos elementos del robot y la clase principal **Robot**.
 
@@ -10,6 +12,7 @@ En esta librería se encuentran las clases que gestionan los distintos elementos
     <span style="color:yellow;">Dispositivos que conforman LuMoBot 2026</span>
 </h2>
 ## Dispositivos que conforman LuMoBot 2026
+
 1. **Raspberry Pi Pico**: Es el microcontrolador el robot
 2. **Pantalla SSD1306**: Nos permite mostrar información en forma de texto o con expresiones de ojos para darle un poco de animación al robot.
 3. **Sensor VL6180X**: Es un sensor de distancia óptico basado en tecnología FlightSense™ de STMicroelectronics, que utiliza el principio de tiempo de vuelo (Time-of-Flight, ToF) para medir con precisión la distancia a un objeto, independientemente de su reflectancia, color o textura. El VL6180X mide el tiempo que tarda la luz láser en viajar hasta el objeto y regresar al sensor, lo que permite mediciones más precisas y estables.

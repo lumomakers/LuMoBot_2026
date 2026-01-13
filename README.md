@@ -1,11 +1,4 @@
 
-<!--# <p align="center">LuMoBot 2026</p>
-<span style="color: red;">Texto en rojo</span>
-
-# <p align="center">
-  <span style="color: blue;">Texto centrado y en azul</span>
-</p>
--->
 <h1 align="center">
   <span style="color: yellow;">LuMoBot 2026</span>
 </h1>

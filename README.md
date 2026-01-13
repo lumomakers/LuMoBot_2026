@@ -122,7 +122,7 @@ while True:
 Valor | Gesto | Imagen
 --|--|--
 0 | ojos abiertos | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/mirando.png)
-1 | ojos cerrados |
+1 | ojos cerrados | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/cerrados.png)
 2 | derecha| ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/derecha2.png)
 3 | izquierda | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/izquierda2.png)
 4 | enfado | ![](https://github.com/lumomakers/LuMoBot_2026/blob/main/imgs/enfado.png)

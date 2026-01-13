@@ -1,4 +1,14 @@
-# LuMoBot 2026
+
+<!--# <p align="center">LuMoBot 2026</p>
+<span style="color: red;">Texto en rojo</span>
+
+# <p align="center">
+  <span style="color: blue;">Texto centrado y en azul</span>
+</p>
+-->
+<h1 align="center">
+  <span style="color: yellow;">LuMoBot 2026</span>
+</h1>
 
 El control del robot se reliza mediande la libreria LumoBotLib.py.
 En esta librería se encuentran las clases que gestionan los distintos elementos del robot y la clase principal **Robot**.

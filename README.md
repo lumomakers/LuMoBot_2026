@@ -10,7 +10,7 @@ En esta librería se encuentran las clases que gestionan los distintos elementos
     <span style="color:yellow;">Dispositivos que conforman LuMoBot 2026</span>
 </h2>
 
-$\color{red}{\text{Tu texto aquí}}$
+$\color{blue}{\text{Tu texto aquí}}$
 
 ## Dispositivos que conforman LuMoBot 2026
 
